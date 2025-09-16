@@ -21,12 +21,12 @@ const RANDOM_URLS = process.env.RANDOM_URLS
   ? process.env.RANDOM_URLS.split(",")
   : [
       "https://bazukastore.com/categories.html",
-      "https://biege.onrender.com/admin.html",
+      "https://bazukaping.onrender.com",
       "https://bazukastore.com/category-product.html?category=68c797dc1c1a408d29eb602a"
     ];
 
 // Dedicated URL to ping every 10 minutes
-const DEDICATED_URL = process.env.DEDICATED_URL || "https://ping-tasp.onrender.com"; // Replace with actual URL
+const DEDICATED_URL = process.env.DEDICATED_URL || "https://bazukaping.onrender.com"; // Replace with actual URL
 
 // Self-ping URL (set dynamically after server starts)
 let SELF_PING_URL = null;
