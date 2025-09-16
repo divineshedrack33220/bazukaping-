@@ -1,0 +1,16 @@
+{
+  "name": "keep-alive-bot",
+  "version": "1.0.0",
+  "description": "Keep-alive bot with frontend for Render Web Service",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.1"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
